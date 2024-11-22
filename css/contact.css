@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    background: no-repeat radial-gradient(#4335A7, #80C4E9, #FF7F3E);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s infinite ease;
+}
+
+@keyframes gradient-animation {
+    
+    0% {
+        background-position: 10% 25%;
+      }
+    50% {
+        background-position: 50% 100%;
+      }
+    100% {
+        background-position: 0% 25%;
+      }
+    
+}
+
+#card {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #4335A7;
+    color: #FFF6E9;
+    padding: 10px;
+}
